@@ -14,7 +14,7 @@ char keys[ROWS][COLS] = {
 };
 
 byte rowPins[ROWS] = {2, 3, 4, 5, 6}; // Ряды
-byte colPins[COLS] = {7, 8, 9, 10, 11, 12, 13, A0, A1, A2}; // Столбцы
+byte colPins[COLS] = {7, 8, 9, 10, 11, 16, 14, 15, 18, 19}; // Столбцы
 
 Keypad keypad = Keypad(makeKeymap(keys), rowPins, colPins, ROWS, COLS);
 
